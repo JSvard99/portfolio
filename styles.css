@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color: whitesmoke;
+}
+
+header {
+    margin: 0;
+    padding: 1rem;
+    background-image: linear-gradient(20deg, mediumpurple, indigo);
+    color: wheat;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-self: center;
+    margin-top: 2rem;
+    max-width: 80rem;
+}
+
+.project-card {
+    margin: 1rem;
+    border: 1px mediumpurple solid;
+    border-radius: 3%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.project-card h2 {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    background-color: mediumpurple;
+    color: wheat;
+}
+
+.project-card a {
+    text-decoration: none;
+}
+
+.project-card p {
+    padding: 1rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #projects {
+        grid-template-columns: 30rem;
+    }
+}

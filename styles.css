@@ -38,6 +38,10 @@ header {
     color: wheat;
 }
 
+.project-card a :hover {
+    background-color: indigo;
+}
+
 .project-card a {
     text-decoration: none;
 }
